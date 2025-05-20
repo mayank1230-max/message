@@ -71,3 +71,13 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
+
+.small-image {
+  max-width: 250px;   /* Adjust size as per heart dimensions */
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
